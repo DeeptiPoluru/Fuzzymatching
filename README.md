@@ -31,9 +31,10 @@ https://paper.dropbox.com/ep/redirect/external-link?url=https%3A%2F%2Fwww.dropbo
 ipython notebooks: 
 1. KPSS_clean_11Feb2020.ipynb: cleaning of KPSS data file
 2. CRSP_clean_23Apr2020.ipynb: cleaning of CRSP data file
-3. PV_rawassignee_23Apr2020.ipynb : cleaning of Patent View files
-
-4. 
+3. PV_rawassignee_23Apr2020.ipynb : cleaning of Patent View data file
+4. hi_freq_pv_crsp_30Apr20.ipynb: remove high frequency last words from patent view nad CRSP company names after cleaning
+5. Fuzzy_calculations_KPSS_CRSP_30Apr20.ipynb: fuzzy score computation
+6. Precion_Recall_CRSP_PV_30Apr20.ipynb: precision-recall caluclations
 
 
 
