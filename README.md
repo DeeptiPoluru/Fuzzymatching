@@ -151,7 +151,6 @@ For fuzzy matching, we need to create a matrix with names from both the datasets
   
 - compute fuzz.ratio and fuzz.token for the strings using mesh grid and fuzzywuzzy.
 
-- use a combination of fuzzy scores to determine threshold for matching. All scores == 100, would be a definite match. For my datasets, I used cutoff for top 2 scores to determine precision and recall.
-          
+- use a combination of fuzzy scores to determine threshold for matching. All scores == 100, would be a definite match. 
         
 
