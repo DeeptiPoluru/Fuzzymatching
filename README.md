@@ -32,11 +32,14 @@ ipython notebooks:
 1. KPSS_clean_11Feb2020.ipynb: cleaning of KPSS data file
 2. CRSP_clean_23Apr2020.ipynb: cleaning of CRSP data file
 3. PV_rawassignee_23Apr2020.ipynb : cleaning of Patent View data file
-4. hi_freq_pv_crsp_30Apr20.ipynb: remove high frequency last words from patent view nad CRSP company names after cleaning
-5. Fuzzy_calculations_KPSS_CRSP_30Apr20.ipynb: fuzzy score computation
-6. Precion_Recall_CRSP_PV_30Apr20.ipynb: precision-recall caluclations
+4. kpss_crsp_gt_28Apr20.ipynb : ground truth from 3-way matching between CRSP-Patent View-KPSS
+5. hi_freq_pv_crsp_30Apr20.ipynb: remove high frequency last words from patent view nad CRSP company names after cleaning
+6. Fuzzy_calculations_KPSS_CRSP_30Apr20.ipynb: fuzzy score computation
+7. Precion_Recall_CRSP_PV_30Apr20.ipynb: precision-recall caluclations
 
+Results: 
 
+threshold score >71 gives 99.2 matches based only on spellings(Excluding short forms/ abbreviations/trade names from ground truth) wiht precision of 94.54% (upper limit)  and recall 99.93%.
 
 
 
