@@ -1,7 +1,7 @@
 # Fuzzymatching 
 
 
-Objective: The broad intent is to develop a fuzzy matching algorithm to match strings from two sources. In my porject, I use data from Patent View and CRSP data to match company names from both the data bases.
+Objective: The broad intent is to develop a fuzzy matching algorithm to match strings from two sources. In my porject, I use data from Patent View and CRSP data to match company names from both the data bases and use KPSS data to test the matches.
 Coding language used: Python 
 Packages: Pandas, numpy, fuzzywuzzy, regex
 Memory: requires large RAM memory fuzzy matching invloves a matrix of size m by n, where m and n are the sizes of datasets invloved
