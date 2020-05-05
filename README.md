@@ -21,9 +21,11 @@ Advantages: Can match names with
 
 Raw Files:  
 
-1. rawassignee.tsv : Patent View data file with patents and company names
+1. rawassignee.tsv : Patent View data file with patents and company names: source: http://s3.amazonaws.com/data.patentsview.org/20191231/download/assignee.tsv.zip
 2. CRSP_Names_Data_Monthly.txt : CRSP data file with CRSP company names, year, permno
+
 3. KPSSdata_DirectFromWeb_GroundTruth.csv: KPSS data file with PERMNO and year
+https://paper.dropbox.com/ep/redirect/external-link?url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fe7oopkmv032cz6j%2Fpatents_xi.zip%3Fdl%3D0&hmac=gqntXBaplUJL%2FaJXtkBim%2F%2FdeLV5u8PVlwvI4PTRgFI%3D
 
 ipython notebooks: 
 1. KPSS_clean_11Feb2020.ipynb: cleaning of KPSS data file
